@@ -1,10 +1,43 @@
 *{
-    font-family: Arial,sans-serif;
-}
-.titulo{
-    font-family: 'Times New Roman', serif;
+    font-family: 'Taviraj';
+    background-color: #16161a;
+    color: #94a1b2;
 }
 h1{
-    font-family: Georgia, serif;
+    font-family: "Chivo Mono";
+    color: #fffffe;
     
+}
+
+.titulo{
+    font-family: 'Enriqueta';
+    color: #fffffe;
+}
+
+input{
+    border: 2px solid #fffffe; 
+    background-color: transparent; 
+    padding: 5px; 
+    color: #fffffe; 
+    border-radius: 5px; 
+}
+
+table {
+    border-collapse: collapse; /* Une los bordes de las celdas para crear un aspecto más grueso */
+    border: 2px solid #fffffe; /* Establece un borde blanco y más grueso para la tabla */
+    width: 100%;
+}
+
+th, td {
+    border: 2px solid #fffffe; /* Establece un borde blanco y más grueso para las celdas de encabezado y datos */
+    padding: 4px; /* Añade un espacio interno para mejorar la legibilidad */
+    text-align: left;
+}
+
+footer p{
+    color: #7f5af0;
+}
+
+h3{
+    font-weight: 100;
 }

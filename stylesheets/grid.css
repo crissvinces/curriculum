@@ -1,0 +1,71 @@
+
+#Descripción-personal{
+    display: flex; 
+    flex-direction: row;
+    row-gap: 0.5rem; 
+    column-gap: 0.5rem; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#Descripción-personal .titulo{
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
+#imagen-personal{
+    flex-basis: 1%;
+    flex-grow: 1;
+    
+
+}
+#Descripción-mia{
+    flex-basis: 59%;
+    flex-grow: 1;
+}
+
+
+.container{
+    display: flex; 
+    flex-direction: row;
+    row-gap: 0.5rem; 
+    column-gap: 0.5rem; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#informacion-personal{
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+
+#educacion{
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+
+#habilidades{
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+
+#experiencia{
+    flex-basis: 45%;
+    flex-grow: 1;
+}
+
+#Video{
+    flex-basis: 45%;
+    flex-grow: 1;
+}
+
+#certificados {
+    width: 100%; /* Ocupa el 100% del contenedor principal */
+    max-width: 600px; /* Máximo ancho para evitar que se estire demasiado */
+    text-align: center; /* Centra el texto dentro de la sección */
+    border: 1px solid #ccc; /* Borde para visualización */
+    padding: 20px;
+    box-sizing: border-box;
+}
